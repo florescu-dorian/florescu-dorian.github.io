@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Dorian Florescu | Portfolio</title>
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/1f60e.svg" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Dorian Florescu</span>&#x1F60E;
+          <br />
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Learn More</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/linkedIN.jpg"
+              alt="Profile Image"
+              width="450"
+              height="450"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Michigan State University Alum with a Bachelor's in Computer Science and a Minor in Business. 
+              I have a keen interest in bridging the gap between technology and the automotive industry. 
+              I am driven to use my skills and knowledge to merge these two fields and bring innovative solutions to the industry. 
+              With a passion for both technology and automobiles, I see a unique opportunity to enhance the performance, safety, 
+              and user experience of vehicles through cutting-edge technology.
+            </p>
+            <p class="about-wrapper__info-text">
+              Despite facing obstacles in securing a position, I remain committed to my goal of becoming an integral part of the 
+              automotive tech ecosystem. I am actively seeking opportunities to apply my skills and passion, eager to embark on 
+              a fulfilling career that merges my interests and expertise. Through perseverance and dedication, I am confident that 
+              I will eventually find the right opportunity to make a meaningful impact in the industry.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="\assets\Res.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Experience</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">SOFTWARE DEVELOPER | DRIVEN-4</h3>
+              <p class="project-wrapper__text-info">
+                Developed and maintained a dashboard for monitoring IoT boards through a responsive web
+                application using Python, MySQL, HTML, CSS, and Flask.
+                Coordinated with team and client to design a system architecture and software specifications for the application.
+                Worked closely with the back-end development team to ensure seamless integration with back-end
+                and server systems.
+                Met weekly with client to discuss progress and ensure satisfaction with the application.
+              </p>
+
+              <p class="project-wrapper__text-info">
+                With a single, streamlined web application. 
+                Registered users of an organization connect with their devices over the Internet where they can view and download device data. 
+                Users can perform custom data analytics and visualizations on collected data.
+                Within an organization, administrative accounts manage their users and boards. This includes adding new users, 
+                along with updating existing users’ settings, and pushing mass firmware upgrades or downgrades, to any selected boards.
+                Lastly, DRIVEN-4 server administrators manage all organizations’ users and admins, implement system level settings on devices, 
+                push firmware and enable/disable devices.
+                Our application is built using Python Flask, MySQL databases, and an FTP server for over-the-air firmware updates.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="http://www.capstone.cse.msu.edu/2023-01/projects/driven-4/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a target="_blank" class="cta-btn text-color-main"
+                  >Source Code (CSS)</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                >Source Code (CSS)</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://driven-4.com/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/artwork-3.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                  <img
+                  src="./assets/sysArch_3.0.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                />
+                </div>
+                
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">PROJECT FACILITATOR | DataSpeed Inc.</h3>
+              <p class="project-wrapper__text-info">
+                Developed a Software Requirements Specification document for a Pedestrian Collision Avoidance
+                System (PCAS) ensuring zero collisions under set environments. 
+                Met with customer to acquire project details by asking thoughtful questions for a better grasp on
+                key potential challenges.
+                Created meeting agendas to ensure the best usage of time when coordinating tasks and upcoming
+                goals with the team.
+                Presented final report to customer to confirm that all project requirements and details are satisfied
+              </p>
+              <p class="project-wrapper__text-info">
+                The SRS document was meticulously structured to provide a clear and organized overview of the PCAS system's 
+                functionalities, constraints, and interfaces. Each requirement was carefully documented, including its priority, 
+                source, and acceptance criteria, facilitating traceability and validation throughout the development process.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://cse.msu.edu/~chowdh83/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="./assets/PCAS 3 SRS.pdf" target="_blank" class="cta-btn text-color-main"
+                  >SRS Document</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://www.dataspeedinc.com/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/DataSpeedInc.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                  <img
+                  src="./assets/PCAS.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <hr />
+        </div>
+        
+      </div>
+    </section>
+    <!-- End Projects Section -->
+    <!--Projects Section-->
+
+    <section id="projects">
+      
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">GRAPPLE TANKS | Unity, C#</h3>
+              <p class="project-wrapper__text-info">
+                Co-created and developed an online multiplayer Unity 2D game
+                alongside <a href="https://www.linkedin.com/in/faran-meshinchi/">Faran Meshinchi</a>.
+                Incorporated creative map design, complementing diverse weapon drops.
+                Enhanced gameplay with immersive sound effects and music for an engaging experience.
+              </p>
+              <p class="project-wrapper__text-info">
+                Following extensive development and testing, our online multiplayer Unity 2D game was successfully 
+                released on the Steam platform at the start of the year. The launch marked a significant milestone in our journey, 
+                demonstrating our ability to create and publish software that resonates with users on a widely recognized platform.
+              </p>
+              <p class="project-wrapper__text-info">
+                Throughout the development process, our primary goal was to acquire practical skills in software development and publishing. 
+                By working on a tangible project with real-world applications, we gained invaluable experience in game design, coding, 
+                project management, and marketing strategies. This hands-on approach provided us with a solid foundation for future endeavors in the software industry.
+              </p>
+              <p class="project-wrapper__text-info">
+                Post-launch, we remained dedicated to supporting the game and its community through regular updates and patches. By addressing bugs, 
+                introducing new features, and balancing gameplay mechanics, we ensured the longevity and relevance of our product in the competitive 
+                gaming market. This ongoing commitment to improvement reflects our dedication to delivering exceptional software experiences and our 
+                willingness to adapt to evolving user needs and preferences.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://store.steampowered.com/app/2679340/Grapple_Tanks/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a target="_blank" class="cta-btn text-color-main"
+                  >Source Code (CSS)</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                >Source Code (CSS)</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://store.steampowered.com/app/2679340/Grapple_Tanks/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Header Capsule.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                  <img
+                  src="./assets/Vertical.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">GARAGE | React, Next JS 13, TypeScript, Tailwind CSS</h3>
+              <p class="project-wrapper__text-info">
+                Developed Next.js 13 web app for car browsing, utilizing React, Typescript, and Tailwind CSS.
+                Implemented advanced search and filtering, optimizing user experience with API integration.
+                Designed custom UI components for a fluid and modern user interface.
+              </p>
+              <p class="project-wrapper__text-info">
+                By integrating APIs effectively, I ensured that users could browse through a diverse range of cars effortlessly, 
+                streamlining the process of finding their desired vehicle. The inclusion of custom UI components further enhanced the 
+                interface's usability and aesthetics, showcasing my attention to detail and commitment to delivering a polished product.
+              </p>
+              <p class="project-wrapper__text-info">
+                Beyond the technical aspects, this project provided me with invaluable opportunities for self-directed learning and growth. 
+                Through hands-on experience and experimentation, I deepened my understanding of software architecture, 
+                UI/UX design principles, and project management practices. This self-driven approach not only expanded my skill set
+                but also instilled in me a sense of confidence and autonomy as a software developer.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/florescu-dorian/Garage"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+                <!-- <a href="https://github.com/florescu-dorian/Garage" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a target="_blank" rel="noopener noreferrer">
+              <!-- <a href="#" target="_blank" rel="noopener noreferrer"> -->
+                <div class="thumbnail rounded">
+                  <img
+                  src="./assets/Gar1.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                  />
+                  <img
+                  src="./assets/Gar2.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">(PERSONAL) Full Stack Web App | Python Flask, JavaScript, NoSQL, HTML/CSS, Docker, Git</h3>
+              <p class="project-wrapper__text-info">
+                Developed a secure full-stack web application using Flask framework.
+                Implemented password encryption for enhanced data security and privacy.
+                Utilized asynchronous communication technologies to optimize user experience and interactivity.
+              </p>
+              <p class="project-wrapper__text-info">
+                As my inaugural project in web development, this endeavor was a pivotal milestone in my journey of learning and 
+                mastering full-stack development. Embarking on this project as part of a web development class, I approached it 
+                with enthusiasm and a hunger for knowledge, eager to delve into the intricacies of both front-end and back-end development.
+              </p>
+              <p class="project-wrapper__text-info">
+                Armed with newfound knowledge and skills acquired through lectures and coursework, I embarked on the development 
+                of the secure full-stack web application using Flask. This practical application of theoretical concepts allowed 
+                me to solidify my understanding of key principles and methodologies in web development, bridging the gap between theory 
+                and practice in a tangible and meaningful way.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/florescu-dorian/Personal-Full-Stack-Web-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a target="_blank" rel="noopener noreferrer">
+              <!-- <a href="#" target="_blank" rel="noopener noreferrer"></a> -->
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/pers1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                  <img
+                  src="./assets/pers2.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <hr />
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Let's Connect</p>
+          <a href="mailto:florescu@msu.edu" class="cta-btn cta-btn--resume">Send Email</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/florescu-dorian/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/florescu-dorian"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
