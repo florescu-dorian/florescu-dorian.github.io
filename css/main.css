@@ -77,6 +77,21 @@ a:hover {
 	text-transform: uppercase
 }
 
+@keyframes fadeInDown {
+	from {
+	  opacity: 0;
+	  transform: translateY(-20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+
+  .navbar ul {
+	animation: fadeInDown 1s ease both;
+  }
+
 @media(max-width: 37.5em) {
 	.section-title {
 		font-size: 2.8rem
