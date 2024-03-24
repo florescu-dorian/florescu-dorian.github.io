@@ -1,1 +1,1 @@
-Personal Portfolio @ https://florescu-dorian.github.io/
+Personal Portfolio @ florescu-dorian.github.io
